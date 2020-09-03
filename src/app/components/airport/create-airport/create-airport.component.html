@@ -1,0 +1,94 @@
+<div class="ui breadcrumb mt-3">
+  <a class="section">Dashboard</a>
+  <div class="divider"> / </div>
+  <a class="section">Airport</a>
+  <div class="divider"> / </div>
+  <div class="active section">Manage Airport</div>
+</div>
+
+<div class="ui menu">
+  <div class="item">
+    <div class="ui action input">
+      <div class="ui primary button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">Add To Stock</div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="ui action input">
+      <h5>Total Number of Products</h5>
+    </div>
+  </div>
+  <div class="item">
+    <div class="ui large blue  left pointing  label">
+      <i class="shopping cart icon"></i> 7
+    </div>
+  </div>
+  <div class="right item">
+    <div class="ui icon input">
+      <input type="text" placeholder="Search...">
+      <i class="search icon"></i>
+    </div>
+  </div>
+
+
+</div>
+
+
+<div class="ui segment">
+  <h4 class="ui dividing header">Airport Attribute</h4>
+  <form class="ui form mt-3" [formGroup]="airportFormGroup">
+    <div class="four fields">
+      <div class="four wide field">
+        <input type="text" placeholder="Airport Code" formControlName="airportCode" required
+          [ngClass]="{ 'is-invalid': f.airportCode.touched && f.airportCode.errors }">
+        <span *ngIf="f.airportCode.touched && f.airportCode.invalid" class="text-red form-group">
+          <div *ngIf="f.airportCode.errors.required">Airport code max 5 Letters.</div>
+        </span>
+      </div>
+      <div class="four wide field">
+        <input type="text" placeholder="Airport Name" class="form-control" formControlName="airportName" required
+          [ngClass]="{ 'is-invalid': f.airportName.touched && f.airportName.errors }">
+        <span *ngIf="f.airportName.touched && f.airportName.invalid" class="text-red form-group">
+          <div *ngIf="f.airportName.errors.required">Airport Name is required.</div>
+        </span>
+      </div>
+      <div class="four wide field">
+        <input type="text" placeholder="Airport Location" class="form-control" formControlName="airportLocation"
+          required [ngClass]="{ 'is-invalid': f.airportName.touched && f.airportName.errors }">
+        <span *ngIf="f.airportLocation.touched && f.airportLocation.invalid" class="text-red form-group">
+          <div *ngIf="f.airportLocation.errors.required">Location of Airport is required.</div>
+        </span>
+      </div>
+      <div class="two wide field">
+        <div class="ui primary button" (click)="saveAirport()">save</div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<table class="ui very compact table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Airport Code</th>
+      <th>Airport Name</th>
+      <th>Airport Location</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let list of airportList;let i=index">
+      <th>{{i+1}}</th>
+      <td>{{list?.airportCode}}</td>
+      <td>{{list?.airportName}}</td>
+      <td>{{list?.airportLocation}}</td>
+      <td><i class="fa fa-edit mr-2" aria-hidden="true" style="color:blue;"></i> <i class="fa fa-trash ml-2"
+          aria-hidden="true" style="color:red;"></i></td>
+
+    </tr>
+
+
+
+  </tbody>
+</table>

@@ -1,0 +1,236 @@
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400px
+}
+
+
+/* Navigation/Header */
+
+/* #header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+} */
+
+
+/* Banner */
+
+/* .banner {
+  background: url(../images/poultry5.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.styling {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 700px;
+}
+
+.w3ls_banner_txt p {
+  color: #eee;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.banner-text-w3pvt {
+  padding: 17vw 0 11vw;
+  box-sizing: border-box;
+}
+
+.banner-form-w3 {
+  padding: 12vw 0 0vw;
+  box-sizing: border-box;
+}
+
+h3.b-w3ltxt span {
+  color: #fff;
+}
+
+h3.b-w3ltxt {
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 0px #333;
+}
+
+h4.b-w3ltxt {
+  font-size: 3em;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.btn-banner {
+  background: #3369e7;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 12px 30px;
+  display: inline-block;
+}
+
+.btn-banner:hover {
+  color: #fff;
+}
+
+.form-style-w3ls input[type="text"],
+.form-style-w3ls input[type="email"],
+.form-style-w3ls input[type="password"],
+select {
+  outline: none;
+  font-size: 14px;
+  border: none;
+  color: #666;
+  background: #f1f1f1;
+  letter-spacing: 0.5px;
+  padding: 14px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.form-style-w3ls button.btn {
+  color: #fff;
+  background: #3369e7;
+  border: none;
+  padding: 14px 0;
+  outline: none;
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.form-style-w3ls input[type="submit"]:hover {
+  background: #dc3545;
+}
+
+.padding {
+  padding: 2.5em;
+  background: #fff;
+}
+
+.form-style-w3ls span {
+  font-size: 13px;
+  color: #666;
+}
+
+.form-style-w3ls span a {
+  color: #3369e7;
+} */
+
+
+/*-- //banner --*/
+
+
+/* //girds */
+/* 
+h2.heading {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: 600;
+} */
+
+
+/*-- banner bottom --*/
+/* 
+.showcase .showcase-text {
+  padding: 3rem
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover
+}
+
+@media (min-width:768px) {
+  .showcase .showcase-text {
+    padding: 7rem
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("/assets/images/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+} */
